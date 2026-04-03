@@ -1,0 +1,24 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="28" x2="216" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2333"/>
+      <stop offset="1" stop-color="#09131D"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="62" y1="52" x2="201" y2="203" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#47DEFF"/>
+      <stop offset="0.55" stop-color="#35A9FF"/>
+      <stop offset="1" stop-color="#F3C761"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="78" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD776"/>
+      <stop offset="1" stop-color="#FF8C4B"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="54" fill="url(#bg)"/>
+  <rect x="16.75" y="16.75" width="222.5" height="222.5" rx="53.25" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="128" cy="128" r="70" stroke="url(#ring)" stroke-width="18"/>
+  <circle cx="128" cy="128" r="38" fill="#10283A"/>
+  <path d="M127.686 82C153.314 82 174 102.686 174 128.314C174 153.942 153.314 174.628 127.686 174.628C112.899 174.628 99.6127 167.818 91.0616 157.123C89.0507 154.608 89.9615 150.857 93.0506 149.876L118.584 141.767C120.299 141.222 122.164 141.78 123.294 143.164C124.257 144.344 125.73 145.099 127.38 145.099C130.278 145.099 132.627 142.75 132.627 139.852C132.627 136.954 130.278 134.605 127.38 134.605C124.396 134.605 121.993 132.117 122.132 129.136L123.87 91.9384C124.009 88.9558 126.469 86.6172 129.455 86.7893L159.957 88.5472C162.912 88.7174 165.047 91.4062 164.489 94.3129C160.289 116.209 141.043 132.767 118.022 132.767C114.73 132.767 111.556 132.428 108.493 131.782" fill="url(#accent)"/>
+  <circle cx="174" cy="82" r="16" fill="#132B3B" stroke="#47DEFF" stroke-opacity="0.45" stroke-width="2"/>
+  <circle cx="174" cy="82" r="6" fill="#47DEFF"/>
+</svg>
